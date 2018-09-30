@@ -1,0 +1,8 @@
+<?php
+require 'includes/helpers.php';
+
+function toKilograms(int $weight)
+{
+    $result = ($_GET['weight'] * 0.453592);
+        return $result;
+}

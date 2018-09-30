@@ -3,7 +3,7 @@
 + Production URL: <http://p2.yourdomain.com>
 
 ## Outside resources
-+ [http://www.ksmithwriter.com/Mifflin_Equation_For_Weight_Control.html](Mifflin Equation for Weight Control)
++ [Mifflin Equation for Weight Control](http://www.ksmithwriter.com/Mifflin_Equation_For_Weight_Control.html)
 
 ## 3 Unique inputs
 1. Number Input - used to input weight, height, and age
