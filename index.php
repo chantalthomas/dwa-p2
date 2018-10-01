@@ -1,6 +1,6 @@
 <?php
-#require 'helpers.php';
-#require 'logic.php';
+require 'helpers.php';
+require 'logic.php';
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@
 <body>
 <div class='container'>
     <h1>Caloric Calculator</h1>
-    <form action='toKilograms.php' method='get' class='inputContainer'>
+    <form action='calculateCaloricIntake.php' method='get' class='inputContainer'>
         <fieldset>
             <legend>Height</legend>
             <label>
@@ -48,16 +48,19 @@
             <legend>Fitness Level</legend>
             <label>
                 <select name="exerciseAmount">
-                    <option value='none'>None</option>
-                    <option value='slightly'>Slightly</option>
-                    <option value='moderate'>Moderate</option>
+                    <option value='none'>Little to No Exercise</option>
+                    <option value='slightly'>Slightly Active</option>
+                    <option value='moderate'>Moderately Active</option>
                     <option value='active'>Active</option>
                     <option value='veryActive'>Very Active</option>
                 </select>
             </label>
         </fieldset>
-        <input type="submit" class='submitButton' value='Submit'>
+        <input type="submit" class='submitButton' name='submit' value='Submit'>
     </form>
+    <?php if (isset($_GET['submit'])): ?>
+        Your caloric intake is: <?php echo mifflinEquation($weight, $feet, $inches, $age); ?>
+    <?php endif; ?>
 </div>
 </body>
 </html>

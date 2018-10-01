@@ -4,6 +4,7 @@
 
 ## Outside resources
 + [Mifflin Equation for Weight Control](http://www.ksmithwriter.com/Mifflin_Equation_For_Weight_Control.html)
++ [Used to compare the results of my application](https://www.healthline.com/nutrition/how-many-calories-per-day)
 
 ## 3 Unique inputs
 1. Number Input - used to input weight, height, and age
