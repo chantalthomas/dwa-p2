@@ -83,7 +83,7 @@ function mifflinEquation($weight, $feet, $inches, $age)
 }
 
 #storing data in the session
-$_SESSION['result'] = [
+$_SESSION['results'] = [
     'feet' => $feet ,
     'inches' => $inches ,
     'weight' => $weight ,
