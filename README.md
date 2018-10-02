@@ -17,7 +17,7 @@
 *List the name of the class you're using, e.g. `Form.php`, `Password.php`, etc.*
 
 ## Code style divergences
-*list any divergences from PSR-1/PSR-2 and course guidelines on code style*
++ N/A
 
 ## Notes for instructor
 *any notes for me to refer to while grading; if none, omit this section*

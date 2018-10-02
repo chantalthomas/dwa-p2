@@ -1,6 +1,7 @@
 <?php
 require 'helpers.php';
 require 'logic.php';
+#require 'calculateCaloricIntake.php';
 ?>
 
 <!DOCTYPE html>
@@ -58,8 +59,8 @@ require 'logic.php';
         </fieldset>
         <input type="submit" class='submitButton' name='submit' value='Submit'>
     </form>
-    <?php if (isset($_GET['submit'])): ?>
-        Your caloric intake is: <?php echo mifflinEquation($weight, $feet, $inches, $age); ?>
+    <?php if (isset($feet)): ?>
+        Your caloric intake is: <?php echo mifflinEquation($weight, $feet, $inches, $age, $gender, $exerciseAmount); ?>
     <?php endif; ?>
 </div>
 </body>

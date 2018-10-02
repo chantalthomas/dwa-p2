@@ -28,7 +28,7 @@ function toCentimeters($feet, $inches)
 }
 
 #Mifflin Equation
-function mifflinEquation($weight, $feet, $inches, $age)
+function mifflinEquation($weight, $feet, $inches, $age, $gender, $exerciseAmount)
 {
     global $gender;
     global $exerciseAmount;

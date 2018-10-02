@@ -2,7 +2,7 @@
 
 session_start();
 
-if(isset($_SESSION['results'])){
+if (isset($_SESSION['results'])) {
     $results = $_SESSION['results'];
 
     $feet = $results['feet'];
