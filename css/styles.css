@@ -1,23 +1,30 @@
-.container{
-	width: 70%;
-	margin: auto;
+.container {
+    width: 70%;
+    margin: auto;
 }
 
-h1{
-	text-align: center;
-	color: #4F6D7A;
+h1 {
+    text-align: center;
+    color: #4F6D7A;
 }
 
-.submitButton{
-	display: block;
-	margin: 1rem auto;
-	border-radius: 60px;
- 	cursor: pointer;
-  	background: #EAEAEA;
- 	padding: 10px 45px;
-  	border: 2px solid #DD6E42;
+.submitButton {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 60px;
+    cursor: pointer;
+    background: #EAEAEA;
+    padding: 10px 45px;
+    border: 2px solid #DD6E42;
 }
-.submitButton:hover{
-    	background: #DD6E42;
-	color: #EAEAEA
-	}
+
+.submitButton:hover {
+    background: #DD6E42;
+    color: #EAEAEA
+}
+
+.outputContainer{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
