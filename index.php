@@ -1,7 +1,10 @@
 <?php
 require 'helpers.php';
 require 'logic.php';
-#require 'calculateCaloricIntake.php';
+
+#allows us to use class
+use DWA\Form;
+
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +16,6 @@ require 'logic.php';
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href='css/styles.css' rel='stylesheet'>
-
 </head>
 <body>
 <div class='container'>
@@ -22,20 +24,20 @@ require 'logic.php';
         <fieldset>
             <legend>Height</legend>
             <label>
-                <input type='number' name='feet'>
-                <input type='number' name='inches'>
+                <input type='number' name='feet' value='<?php if (isset($feet)) echo $feet ?>'>
+                <input type='number' name='inches' value='<?php if (isset($inches)) echo $inches ?>'>
             </label>
         </fieldset>
         <fieldset>
             <legend>Weight</legend>
             <label>
-                <input type='number' name='weight'>
+                <input type='number' name='weight' value='<?php if (isset($weight)) echo $weight ?>'>
             </label>
         </fieldset>
         <fieldset>
             <legend>Age</legend>
             <label>
-                <input type='number' name='age'>
+                <input type='number' name='age' value='<?php if (isset($age)) echo $age ?>'>
             </label>
         </fieldset>
         <fieldset>
@@ -58,9 +60,15 @@ require 'logic.php';
             </label>
         </fieldset>
         <input type="submit" class='submitButton' name='submit' value='Submit'>
+
+        <?php if ($hasErrors): ?>
+            <?php foreach ($errors as $error): ?>
+                <?= $error ?>
+            <?php endforeach; ?>
+        <?php endif ?>
     </form>
-    <?php if (isset($feet)): ?>
-        Your caloric intake is: <?php echo mifflinEquation($weight, $feet, $inches, $age, $gender, $exerciseAmount); ?>
+    <?php if (isset($caloricIntake)): ?>
+        Your caloric intake is: <?= $caloricIntake ?>
     <?php endif; ?>
 </div>
 </body>

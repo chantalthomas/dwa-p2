@@ -14,7 +14,7 @@
 3. Drop Down Menu - used to select level of exercise 
 
 ## Class
-*List the name of the class you're using, e.g. `Form.php`, `Password.php`, etc.*
++ Form.php
 
 ## Code style divergences
 + N/A

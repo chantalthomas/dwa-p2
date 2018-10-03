@@ -2,6 +2,8 @@
 
 session_start();
 
+$hasErrors = false;
+
 if (isset($_SESSION['results'])) {
     $results = $_SESSION['results'];
 
@@ -11,6 +13,9 @@ if (isset($_SESSION['results'])) {
     $age = $results['age'];
     $gender = $results['gender'];
     $exerciseAmount = $results['exerciseAmount'];
+    $caloricIntake = $results['caloricIntake'];
+    $errors = $results['errors'];
+    $hasErrors = $results['hasErrors'];
 }
 
 session_unset();
