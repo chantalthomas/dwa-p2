@@ -21,6 +21,7 @@ require 'logic.php';
     <form action='calculateCaloricIntake.php' method='get' class='inputContainer'>
         <fieldset class='form-group'>
             <legend>Height</legend>
+            <p>Enter height in feet and inches</p>
             <label>
                 <input type='number' name='feet' value='<?php if (isset($feet)) echo $feet ?>'>
                 <input type='number' name='inches' value='<?php if (isset($inches)) echo $inches ?>'>
