@@ -4,8 +4,8 @@
 }
 
 h1 {
-    text-align: center;
-    color: #4F6D7A;
+    letter-spacing: .25rem;
+    text-align:center;
 }
 
 .submitButton {
@@ -13,18 +13,40 @@ h1 {
     margin: 1rem auto;
     border-radius: 60px;
     cursor: pointer;
-    background: #EAEAEA;
+    background: #3F88C5;
     padding: 10px 45px;
-    border: 2px solid #DD6E42;
+    border: 5px solid #032B43;
+    color: #FFFFFF;
 }
 
 .submitButton:hover {
-    background: #DD6E42;
-    color: #EAEAEA
+    background: #032B43;
+    border: 5px solid #3F88C5;
+    color: #FFFFFF;
 }
 
 .outputContainer{
     display: block;
     margin: auto;
+    margin-top: 4rem;
     text-align: center;
+    font-size: 2rem;
+}
+
+li{
+    background: rgba(255, 0, 0, 0.4);
+    text-align:center;
+    margin: auto;
+    margin-top: 1rem;
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.outputContainer{
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    text-align: center;
+    background: rgba(76, 175, 80, 0.3);
+    font-size: 2rem;
 }

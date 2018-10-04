@@ -10,6 +10,7 @@
 + [Rounding Up](http://php.net/manual/en/function.round.php)
 + [Retain Radio Button After Submit](https://www.webdeveloper.com/forum/d/225555-keep-a-radio-button-value)
 +[Bootstrap MDN Link](https://getbootstrap.com/docs/3.3/getting-started/)
++ [Form Formatting](https://getbootstrap.com/docs/3.3/css/)
 
 ## 3 Unique inputs
 1. Number Input - used to input weight, height, and age
@@ -23,5 +24,5 @@
 + N/A
 
 ## Notes for instructor
-*any notes for me to refer to while grading; if none, omit this section*
++ N/A
 

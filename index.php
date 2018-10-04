@@ -10,7 +10,7 @@ require 'logic.php';
     <title>Chantal Thomas</title>
     <meta charset="utf-8">
     <link href='css/normalize.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href='css/styles.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -63,7 +63,7 @@ require 'logic.php';
                 </select>
             </label>
         </fieldset>
-        <input type="submit" class='submitButton' name='submit' value='Submit'>
+        <input type="submit" class='submitButton' name='submit' value='S U B M I T'>
 
         <?php if ($hasErrors): ?>
             <ul>
