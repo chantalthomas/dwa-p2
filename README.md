@@ -1,6 +1,6 @@
 # dwa-p2 - Caloric Intake Calculator
 + By: Chantal Thomas
-+ Production URL: <http://p2.yourdomain.com>
++ Production URL: <http://p2.dwafall18.me/>
 
 ## Outside resources
 + [Mifflin Equation for Weight Control](http://www.ksmithwriter.com/Mifflin_Equation_For_Weight_Control.html)
