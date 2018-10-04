@@ -5,7 +5,7 @@ require 'logic.php';
 ?>
 
 <!DOCTYPE html>
-<html lang='en' xmlns="http://www.w3.org/1999/html">
+<html lang='en'>
 <head>
     <title>Chantal Thomas</title>
     <meta charset="utf-8">
@@ -25,7 +25,7 @@ require 'logic.php';
             <label>
                 <input type='number' name='feet' value='<?php if (isset($feet)) echo $feet ?>'>
             </label>
-            </label>
+            <label>
                 <input type='number' name='inches' value='<?php if (isset($inches)) echo $inches ?>'>
             </label>
         </fieldset>
