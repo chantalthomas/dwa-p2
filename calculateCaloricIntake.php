@@ -13,12 +13,12 @@ $form = new Form($_GET);
 
 #Get data from form request
 #Get data from form request
-$feet = isset($_GET['feet'])? $_GET['feet']: '';
-$inches = isset($_GET['inches'])? $_GET['inches']: '';
-$weight = isset($_GET['weight'])? $_GET['weight']: '';
-$age = isset($_GET['age'])? $_GET['age']: '';
-$gender = isset($_GET['gender'])? $_GET['gender']: '';
-$exerciseAmount = isset($_GET['exerciseAmount'])? $_GET['exerciseAmount']: '';
+$feet = isset($_GET['feet']) ? $_GET['feet'] : '';
+$inches = isset($_GET['inches']) ? $_GET['inches'] : '';
+$weight = isset($_GET['weight']) ? $_GET['weight'] : '';
+$age = isset($_GET['age']) ? $_GET['age'] : '';
+$gender = isset($_GET['gender']) ? $_GET['gender'] : '';
+$exerciseAmount = isset($_GET['exerciseAmount']) ? $_GET['exerciseAmount'] : '';
 
 $errors = $form->validate([
     'feet' => 'required|digit',
